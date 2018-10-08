@@ -57,6 +57,9 @@ public class Array1DGrid extends Grid{
     /**
      * Obtain the <code>Cell</code> at given coordinates.
      *
+     * A ZombieCell is returned if the requested cell lies along the *outside*
+     * border of the grid
+     *
      * @param row The row of the requested <code>Cell</code>.
      * @param column The column of the requested <code>Cell</code>.
      * @return The requested <code>Cell</code>.
