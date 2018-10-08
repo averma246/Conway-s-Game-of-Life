@@ -24,17 +24,21 @@ ConwayCell
       (2) alive cell with 2 or 3 alive neighbors remains alive for the next generation
       (3) alive cell with >3 alive neighbors dies
       (4) dead cell with exactly 3 alive neighbors becomes alive
+* @author: Ana Verma
 
 HighlifeCell
 * RULES: (1) dead cell with exactly 3 or 6 alive neighbors becomes alive, (2) alive cell with exactly 2 or 3 alive neighbors remains alive, (3) cells are dead under all other circumstances
+* @author: Ana Verma
 
 ZombieCell
 * cell that is always dead
 * the "cells" that lie along the border of the grid are all zombieCells 
+* @author: Ana Verma
 
 MyCell
 * cell with rules set by me (Ana Verma)
 * RULES: (1) alive cell with exactly 2,3,or 4 alive neighbors remains alive, (2) dead cell with exactly 2, 4, 6, or 8 alive neighbors becomes alive, (3) cells are dead under all other circumstances
+* @author: Ana Verma
  
 UserInterface
 * abstract class used to print the state of the game
