@@ -1,7 +1,7 @@
 # Conway's Game of Life
+---------------------------------------------------------------------------------
 
 *Source Code: From Professor Scott Kaplan, Amherst College*
----------------------------------------------------------------------------------
 
 Array1DGrid: 
 * Single, one-dimensional Cell object array implementation of the grid
